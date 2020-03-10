@@ -20,7 +20,6 @@ In this challenge you will write tests with Cypress to debug your forms app from
 ## Instructions
 
 ### Step 1: Set up Project
-## Project Set Up
 
 This project is a continuation of the work you have done previously.
 
@@ -29,31 +28,27 @@ This project is a continuation of the work you have done previously.
 - [ ] Install Cypress with npm.
       `npm install cypress --save-dev`
 - [ ] run `npx cypress open`, After a moment, the Cypress Test Runner will launch.
-- [ ] Assuming you’ve successfully installed the Test Runner and opened the Cypress app, 
-      now it’s time to write our first test. We’re going to:
-      1.) in your code editor locate the integration folder at cypress/integration
-      2.) Create a form_test.js file.
-      2.) Watch the Cypress Test Runner update the list of specs.
-      *Add image here*
-      3.) Launch Cypress in interactive mode.
-      *Add image here*
+- [ ]  Locate the integration folder at cypress/integration in your code editor
+- [ ]  Create a form_test.js file.
+- [ ]  Watch the Cypress Test Runner update the list of specs.
+- [ ] Launch Cypress in interactive mode.
       
-**Note** 
-You will see an error that says "No tests found in your file:" with your particular file path. This is because we have not written any tests yet. Now you will start writing tests. 
+*Note:* 
+You will see an error that says "No tests found in your file:" with your particular file path. This is because we have not written any tests yet. Now you will start writing tests.
 
 ### Step 2: Write and Run Tests
 
 In order to complete this challenge you will need to write and run the following tests. They do *not* need to pass, so long as the reasons they are failing is legitimate.
 
-- [ ]  Set up a test that will get the `Name` input and type a name in it. 
-- [ ]  Use an assertion to check if the text inputed contains the name you provided (Hint: use the .should assertion)
-- [ ]  Set up a test that will get the `Email` input and type an email address in it. 
-- [ ]  Set up a test that will get the `password` input and type a password in it. 
-- [ ]  Set up a test that will check to see if a user can check the terms of service box
-- [ ]  Set up a test that will check to see if a user can submit the form data
-- [ ]  Set up a test that will check for form validation if an input is left empty
+Set up tests that will...
 
-Whatever manner most effectively communicates the information (consider whether a specific sequence is required or if illustrating a clear visual hierarchy would be beneficial).
+- [ ]  Get the `Name` input and type a name in it.
+- [ ]  Use an assertion to check if the text inputted contains the name you provided (Hint: use the .should assertion)
+- [ ]  Get the `Email` input and type an email address in it
+- [ ] Get the `password` input and type a password in it
+- [ ]  Set up a test that will check to see if a user can check the terms of service box
+- [ ] Check to see if a user can submit the form data
+- [ ] Check for form validation if an input is left empty
 
 ### Step 3: Stretch Goals
 
@@ -72,12 +67,3 @@ If you have time, write and run different tests based on common issues you have 
 📚 [Cypress Documentation](https://www.cypress.io/how-it-works/)
 
 🤔 [Blog: Setting up Tests with Cypress](https://medium.com/better-practices/end-to-end-testing-with-cypress-bfcd59633f1a)
-
-
-## Grading rubric
-
-If you've prepared a grading rubric that will be used to evaluate the quality of a student's work on your module challenge assignment, include any instructions or relevant links below.
-
-[Grading rubric](example)
-
-[Module challenge grading rubric](https://www.notion.so/e7b32e56ebad4f57b3521efb886f4508)
