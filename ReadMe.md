@@ -19,7 +19,7 @@ In this challenge you will write tests with Cypress to debug your forms app from
 
 ## Instructions
 
-### Step 1: Set up Project
+### Task 1: Set up Project
 
 This project is a continuation of the work you have done previously.
 
@@ -36,7 +36,7 @@ This project is a continuation of the work you have done previously.
 *Note:* 
 You will see an error that says "No tests found in your file:" with your particular file path. This is because we have not written any tests yet. Now you will start writing tests.
 
-### Step 2: Write and Run Tests
+### Task 2a: Write and Run Tests (MVP)
 
 In order to complete this challenge you will need to write and run the following tests. They do *not* need to pass, so long as the reasons they are failing is legitimate.
 
@@ -50,7 +50,13 @@ Set up tests that will...
 - [ ] Check to see if a user can submit the form data
 - [ ] Check for form validation if an input is left empty
 
-### Step 3: Stretch Goals
+### Task 2b: Exit Ticket
+
+Once you begin, you will have 15 minutes to answer the questions [here](https://app.codesignal.com/public-test/eexpeZaqcbkoupGAM/KpAXj6bwfeR4o3).
+
+The completion of these questions is mandatory for MVP. However, passing the quiz doesn't affect your standing as a Lambda School student whatsoever. This is Lambda School testing itself! Please answer honestly and to the best of your ability without using external references.
+
+### Task 3: Stretch Goals
 
 If you have time, write and run different tests based on common issues you have encountered working on this code for the past few days.
 
@@ -67,3 +73,8 @@ If you have time, write and run different tests based on common issues you have 
 📚 [Cypress Documentation](https://www.cypress.io/how-it-works/)
 
 🤔 [Blog: Setting up Tests with Cypress](https://medium.com/better-practices/end-to-end-testing-with-cypress-bfcd59633f1a)
+
+## Submission Format
+
+* [ ] Submit a Pull-Request to merge `<firstName-lastName>` Branch into `main` (student's  Repo). **Please don't merge your own pull request**
+* [ ] Fill out your module retrospective form [here](https://forms.lambdaschool.com/module-retrospective) with a link to your PR
