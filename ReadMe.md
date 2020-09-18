@@ -1,6 +1,6 @@
 # Module Challenge: Cypress Testing
 
-The modb  ule challenge is the afternoon project or assignment that students work through independently. This expands on the guided project completed earlier with the instructor.
+The module c   hallenge is the afternoon project or assignment that students work through independently. This expands on the guided project completed earlier wi th the instructor. 
 
 ## Single Page Applications
 
@@ -8,8 +8,8 @@ The modb  ule challenge is the afternoon project or assignment that students wor
 
 ## Objectives
 
-- explain what end-to-end testing is and its importance
-- use the Cypress GUI to write tests and interact with Elements
+- explain what end-to-e  nd testing is and its importance
+- use the Cypress GUI to wri te tests and interact with Elements
 - use Cypress to test controlled input
 - run all tests in without any UI
 
