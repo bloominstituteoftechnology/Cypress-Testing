@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from 'axios';
 import { Link } from 'react-router-dom'
+import Formfwd from './Formfwd';
 
 
 const Form =(params) => {
@@ -27,6 +28,7 @@ const Form =(params) => {
         
             axios.post(`https://reqres.in/api/users`,changes)
             .then(evn =>{
+                // debugger;
                 console.log('ev')
                 console.log(evn);
                 setRes(evn.data);
@@ -50,8 +52,8 @@ const Form =(params) => {
            <h1>Sign Up, Right-Now!</h1>
             {
                 submited ? 
-            <div id={res.id}><pre>{JSON.stringify(res,null,2)}</pre> 
-                
+            <div id={res.id}>
+                <Formfwd id={res.id} props={res }  />
                 </div> 
                 
     
