@@ -60,22 +60,22 @@ const Form =(params) => {
                     <label>
                         Name
                     </label>
-                    <input type="text" name="name" placeholder="Enter Name" onChange={e =>handleChange(e)} />
+                    <input data-cy='name'type="text" name="name" placeholder="Enter Name" onChange={e =>handleChange(e)} />
                     <label>
                         Password
                     </label>
-                    <input type="text" name="password" placeholder="Enter Password" onChange={e =>handleChange(e)} />
+                    <input  data-cy='password'type="password" name="password" placeholder="Enter Password" onChange={e =>handleChange(e)} />
                     <label>
                         E-mail
                     </label>
-                    <input type="text" name="email" placeholder="Valid E-Mail"  onChange={e =>handleChange(e)} />
+                    <input  data-cy='email'type="text" name="email" placeholder="Valid E-Mail"  onChange={e =>handleChange(e)} />
                     <Link to="/terms">
                         <label>
                             Terms Of Services
                         </label>
                     </Link>
                     <input type="checkbox" onChange={e =>handleChkChange(e) } />
-                    <button type="submit" >Sign Me Up</button>
+                    <button  data-cy='submited' type="submit" >Sign Me Up</button>
     
             </form>
             }
