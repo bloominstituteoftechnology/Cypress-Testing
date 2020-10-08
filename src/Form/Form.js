@@ -49,7 +49,7 @@ const Form =(params) => {
 
     return (
        <div className="App">
-           <h1>Sign Up, Right-Now!</h1>
+           
             {
                 submited ? 
             <div id={res.id}>
@@ -58,7 +58,12 @@ const Form =(params) => {
                 
     
                 : 
+                
                 <form className="App" onSubmit={handleSubmite}>
+                    <label>
+                        Signup
+                    </label>
+                    <h1>Sign Up, Right-Now!</h1>
                     <label>
                         Name
                     </label>
@@ -77,7 +82,7 @@ const Form =(params) => {
                         </label>
                     </Link>
                     <input type="checkbox" onChange={e =>handleChkChange(e) } />
-                    <button  data-cy='submited' type="submit" >Sign Me Up</button>
+                    <button className="submit-form"  data-cy='submited' type="submit" >Sign Me Up</button>
     
             </form>
             }

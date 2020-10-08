@@ -16,6 +16,7 @@ describe("Test out form output", () =>{
         cy.get('[type=checkbox]').check().should("be.checked")
         
         cy.get('[data-cy=submited]').click();
+        // cy.get('button.submit-form').click()     
         // cy.screenshot('my-img-shotup');
         // cy.get('pre').should('exist')
 

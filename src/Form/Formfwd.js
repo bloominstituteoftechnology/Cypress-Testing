@@ -4,8 +4,9 @@ import './Form.css';
 import Formup from './Formup';
 const  Formfwd = ({props}) => {
     const [nusr,setNusr] = useState(false);
+    const [usr,setUsr] = useState({});
     const  {name}  = {...props};
-   console.log(props);
+   const {data} = props;
   return (
     <Formup name={name} />
   );
