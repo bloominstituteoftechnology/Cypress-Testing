@@ -13,7 +13,7 @@ The module challenge is the afternoon project or assignment that students work t
 - use Cypress to test controlled input
 - run all tests in without any UI
 
-// I'm coming back to work on this soon. 
+// I'm coming back to work on this soon. Learning as I go. 
 
 ## Introduction
 
