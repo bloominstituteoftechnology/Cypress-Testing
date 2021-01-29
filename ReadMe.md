@@ -11,7 +11,7 @@ The module challenge is the afternoon project or assignment that students work t
 - explain what end-to-end testing is and its importance
 - use the Cypress GUI to write tests and interact with Elements
 - use Cypress to test controlled input
-- run all tests in without any UI
+- run all tests in without any UIyes
 
 ## Introduction
 
