@@ -1,7 +1,8 @@
 describe('NewForm', () => {
-    beforeEach(() => cy.visit('baseUrl":"http://localhost:8080/'))
-    describe('filling and submitting', () => {
+beforeEach(() => cy.visit('baseUrl":"http://localhost:8080/'))
+describe('filling and submitting', () => {
         it('can type and see the correct name', () => {
+
             cy.get('input[name=name]')
              .type('Ken Kaneki')
              .should('have.value', 'Ken Kaneki')
@@ -17,11 +18,9 @@ describe('NewForm', () => {
             cy.get('button').submit().click()
 
 })
-    describe('Filling inputs and cancelling', () => {
-
-        it('submit button disabled', () => {
-
+describe('Filling inputs and cancelling', () => {
+ it('submit button disabled', () => {
     cy.get('button').submit().should('be.disabled')})
-    })
+})
 })
 })
