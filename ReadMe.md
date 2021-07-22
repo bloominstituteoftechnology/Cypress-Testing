@@ -75,3 +75,6 @@ If you have time, write and run different tests based on common issues you have 
 
 ## Rick Mansfield's Pull Request
 - [Pull Req for Convenience](https://github.com/LambdaSchool/Cypress-Testing/pull/33)
+
+## Rick's Original Pull request to prior project
+- [Link for convenience](https://github.com/LambdaSchool/User-Onboarding/pull/392)
