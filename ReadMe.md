@@ -38,7 +38,7 @@ You will see an error that says "No tests found in your file:" with your particu
 
 ### Task 2a: Write and Run Tests (MVP)
 
-In order to complete this challenge you will need to write and run the following tests. They do *not* need to pass, so long as the reasons they are failing is legitimate.
+In order to complete this challenge you will need to write and run the following tests. They do *not* need to pass, so long as the reasons they are failing is legitimate
 
 Set up tests that will...
 
