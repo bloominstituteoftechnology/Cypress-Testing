@@ -33,8 +33,18 @@ describe('Quotes App', () => {
         submitBtn().should('exist');    
         roleDropdown().should('exist');  
         tosRadio().should('exist');   
-        // cy.contains('Submit Quote').should('exist');
-        // cy.contains(/submit quote/i).should('exist');
+        // cy.contains('Submit').should('exist');
+        cy.contains(/submit/i).should('exist');
+    })
+
+    describe('Filling out the inputs and cancelling', () => {
+        // We can use optional describe blocks to organize and group our tests
+        // Can we navigate to the url
+        it('can navigate to the url', () => {
+            cy.url().should('include', 'localhost');
+        })
+
+        
     })
     
 })
