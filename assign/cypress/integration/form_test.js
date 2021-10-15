@@ -49,6 +49,30 @@ describe('Quotes App', () => {
             submitBtn().should('be.disabled');
         })
 
+        // type in the inputs
+        it('can type in the inputs', () => {
+            first_nameInput()
+                .should('have.value', '')
+                .type('Peter rox!')
+                .should('have.value', 'Peter rox!');
+            last_nameInput()
+                .should('have.value', '')
+                .type('Not Peter')
+                .should('have.value', 'Not Peter');
+            emailInput()
+                .should('have.value', '')
+                .type('p@p.com')
+                .should('have.value', 'p@p.com');
+            passwordInput()
+                .should('have.value', '')
+                .type('password')
+                .should('have.value', 'password');
+            roleDropdown()                
+                .select('')
+                .should('have.value', 'Select an option');
+
+        })
+
         
     })
     
