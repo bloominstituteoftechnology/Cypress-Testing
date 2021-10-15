@@ -8,11 +8,12 @@ describe('Quotes App', () => {
     })
 
     // Getters to cut down on typing
-    const textInput = () => cy.get('input[name=text]');
-    const authorInput = () => cy.get('input[name=author]');
-    const foobarInput = () => cy.get('input[name=foobar]');
+    const first_nameInput = () => cy.get('input[name=first_name]');
+    const last_nameInput = () => cy.get('input[name=last_name]');
+    const emailInput = () => cy.get('input[name=email]');
+    const passwordInput = () => cy.get('input[name=password]');
     const submitBtn = () => cy.get("button[id='submitBtn']");
-    const cancelBtn = () => cy.get(`button[id="cancelBtn"]`);
+    
 
     it('sanity check to make sure tests work', () => {
         // "it" is a test
@@ -23,5 +24,14 @@ describe('Quotes App', () => {
         expect({}).to.eql({}); // not strict ==
     })
 
+    it('the proper elements are showing', () => {
+        first_nameInput().should('exist');
+        last_nameInput().should('exist');
+        emailInput().should('exist');
+        passwordInput().should('exist');
+        submitBtn().should('exist');        
+        // cy.contains('Submit Quote').should('exist');
+        // cy.contains(/submit quote/i).should('exist');
+    })
     
 })
