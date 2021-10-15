@@ -44,6 +44,11 @@ describe('Quotes App', () => {
             cy.url().should('include', 'localhost');
         })
 
+        // submit button should start out disabled
+        it('submit button starts out disabled', () => {
+            submitBtn().should('be.disabled');
+        })
+
         
     })
     
