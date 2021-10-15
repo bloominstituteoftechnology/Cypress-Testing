@@ -13,7 +13,8 @@ describe('Quotes App', () => {
     const emailInput = () => cy.get('input[name=email]');
     const passwordInput = () => cy.get('input[name=password]');
     const submitBtn = () => cy.get("button[id='submitBtn']");
-    
+    const roleDropdown = () => cy.get ('select[name=role]');
+    const tosRadio = () => cy.get ('input[name=termsOfService]');
 
     it('sanity check to make sure tests work', () => {
         // "it" is a test
@@ -29,7 +30,9 @@ describe('Quotes App', () => {
         last_nameInput().should('exist');
         emailInput().should('exist');
         passwordInput().should('exist');
-        submitBtn().should('exist');        
+        submitBtn().should('exist');    
+        roleDropdown().should('exist');  
+        tosRadio().should('exist');   
         // cy.contains('Submit Quote').should('exist');
         // cy.contains(/submit quote/i).should('exist');
     })
