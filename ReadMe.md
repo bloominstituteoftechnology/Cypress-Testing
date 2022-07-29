@@ -23,9 +23,9 @@ In this challenge you will write tests with Cypress to debug your forms app from
 
 This project is a continuation of the work you have done previously.
 
-- [ ] CD into your old project
-- [ ] Continue to make changes and push to the same branch
-- [ ] Install Cypress with npm.
+- [x] CD into your old project
+- [x] Continue to make changes and push to the same branch
+- [x] Install Cypress with npm.
       `npm install cypress --save-dev`
 - [ ] run `npx cypress open`, After a moment, the Cypress Test Runner will launch.
 - [ ]  Locate the integration folder at cypress/integration in your code editor
