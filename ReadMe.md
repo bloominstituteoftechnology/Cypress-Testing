@@ -26,7 +26,9 @@ This project is a continuation of the work you have done previously.
 - [ ] CD into your old project
 - [ ] Continue to make changes and push to the same branch
 
-For cypress setup run `npm install cypress --save-dev` and then `npx cypress open`. That will open up a dialogue that has a `Welcome to Cypress 10!` banner and a button below that says `Continue to Cypress 10`. Click that button, then scroll down to the bottom of the next screen and click the three migrate buttons one after the other (after clicking one the next section will expand and allow you to click the next migrate selection). On the next screen select the `e2e` option, then select a browser of your choice and click the `Start E2E Testing` button.
+For cypress setup run `npm install cypress --save-dev` and then `npx cypress open`. That will open up a dialogue that has a `Welcome to Cypress 10!` banner and a button below that says `Continue to Cypress 10`. Click that button, then scroll down to the bottom of the next screen and click the three migrate buttons one after the other (after clicking one the next section will expand and allow you to click the next migrate selection). On the next screen select the `e2e` option and on the next screen select the `Scaffold Example Specs` option, then select a browser of your choice and click the `Start E2E Testing` button.
+
+From there, in your newly created cypress folder in VSCode, navigate to the e2e folder and create a new file called `form.cy.js` and you're all set to write your tests! (Make sure to have the `.cy` in the path otherwise Cypress won't be able to find your tests!)
 
 ### Task 2a: Write and Run Tests (MVP)
 
