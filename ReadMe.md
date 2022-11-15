@@ -25,16 +25,8 @@ This project is a continuation of the work you have done previously.
 
 - [ ] CD into your old project
 - [ ] Continue to make changes and push to the same branch
-- [ ] Install Cypress with npm.
-      `npm install cypress --save-dev`
-- [ ] run `npx cypress open`, After a moment, the Cypress Test Runner will launch.
-- [ ]  Locate the integration folder at cypress/integration in your code editor
-- [ ]  Create a form_test.js file.
-- [ ]  Watch the Cypress Test Runner update the list of specs.
-- [ ] Launch Cypress in interactive mode.
-      
-*Note:* 
-You will see an error that says "No tests found in your file:" with your particular file path. This is because we have not written any tests yet. Now you will start writing tests.
+
+For cypress setup run `npm install cypress --save-dev` and then `npx cypress open`. That will open up a dialogue that has a `Welcome to Cypress 10!` banner and a button below that says `Continue to Cypress 10`. Click that button, then scroll down to the bottom of the next screen and click the three migrate buttons one after the other (after clicking one the next section will expand and allow you to click the next migrate selection). On the next screen select the `e2e` option, then select a browser of your choice and click the `Start E2E Testing` button.
 
 ### Task 2a: Write and Run Tests (MVP)
 
