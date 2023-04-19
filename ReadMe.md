@@ -19,7 +19,7 @@ In this challenge you will write tests with Cypress to debug your forms app from
 
 ## Instructions
 
-### Task 1: Set up Project
+### Task 1: Set up Project.. 
 
 This project is a continuation of the work you have done previously.
 
