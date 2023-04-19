@@ -7,7 +7,6 @@ The module challenge is the afternoon project or assignment that students work t
 ## Cypress.io
 
 ## Objectives
-
 - explain what end-to-end testing is and its importance
 - use the Cypress GUI to write tests and interact with Elements
 - use Cypress to test controlled input
@@ -20,7 +19,6 @@ In this challenge you will write tests with Cypress to debug your forms app from
 ## Instructions
 
 ### Task 1: Set up Project
-
 This project is a continuation of the work you have done previously.
 
 - [ ] CD into your old project
