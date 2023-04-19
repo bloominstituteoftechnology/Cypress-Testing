@@ -32,7 +32,7 @@ From there, in your newly created cypress folder in VSCode, navigate to the e2e 
 
 ### Task 2a: Write and Run Tests (MVP)
 
-In order to complete this challenge you will need to write and run the following tests. They do *not* need to pass, so long as the reasons they are failing is legitimate.
+In order to complete this challenge you will need to write and run the following tests. They do *not* need to pass, so long as the reasons they are failing is legitimate
 
 Set up tests that will...
 
